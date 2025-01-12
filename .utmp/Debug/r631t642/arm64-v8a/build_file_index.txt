@@ -1,0 +1,2 @@
+C:\Users\enzos\ARBubblePop\Library\PramData\AndroidApplicationController\Cache\com.QTSolutions.ARBubblePop\gradle-project\unityLibrary\src\main\cpp\CMakeLists.txt
+C:\Users\enzos\ARBubblePop\Library\PramData\AndroidApplicationController\Cache\com.QTSolutions.ARBubblePop\gradle-project\unityLibrary\src\main\cpp\GameActivity\CMakeLists.txt

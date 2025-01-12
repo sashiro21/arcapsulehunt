@@ -4,7 +4,10 @@ using UnityEngine.UI;
 public class timer_script : MonoBehaviour
 {
     public Text timerText;
-    private float timeRemaining = 30f;
+    private float timeRemaining = 300f;
+
+    public Text scoreText;
+    public int score = 0;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -29,5 +32,13 @@ public class timer_script : MonoBehaviour
     {
         // Handle game over logic
         Debug.Log("Game Over!");
+        timerText.text = "Game Over !";
+        scoreText.text = $"Final Score: {score}";
+    }
+
+    public void IncrementScore()
+    {
+        score++;
+        scoreText.text = $"Score: {score}";
     }
 }
